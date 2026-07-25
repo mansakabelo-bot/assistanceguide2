@@ -1,91 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Check Grant Eligibility</title>
+<head>  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Community Food Support Program</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f6f7f8;
+    * {
       margin: 0;
       padding: 0;
-      color: #1c1e21;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
     }
-    .container {
-      max-width: 480px;
-      margin: 40px auto;
-      background: #ffffff;
-      padding: 24px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+    body {
+      background: #f4f6f8;
+      color: #222;
     }
-    h1 {
-      font-size: 22px;
-      margin-bottom: 12px;
-    }
-    p {
-      font-size: 15px;
-      line-height: 1.5;
-      margin-bottom: 14px;
-    }
-    ul {
-      padding-left: 18px;
-      margin-bottom: 18px;
-    }
-    li {
-      margin-bottom: 8px;
+
+    .topbar {
+      background: #1f7a3d;
+      color: white;
+      text-align: center;
+      padding: 12px;
       font-size: 14px;
-    }
-    .cta {
-      display: block;
-      width: 100%;
-      text-align: center;
-      background: #f15a29;
-      color: #ffffff;
-      padding: 14px;
-      font-size: 16px;
       font-weight: bold;
-      text-decoration: none;
-      border-radius: 6px;
     }
-    .disclaimer {
-      font-size: 12px;
-      color: #65676b;
-      margin-top: 14px;
+
+    .hero {
+      background: white;
+      max-width: 900px;
+      margin: 30px auto;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .hero img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 35px;
+    }
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 15px;
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 18px;
+      color: #444;
+    }
+
+    .highlight {
+      background: #edf8f0;
+      border-left: 5px solid #1f7a3d;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .states {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 10px;
+      margin: 25px 0;
+    }
+
+    .state {
+      background: #f1f3f5;
+      padding: 12px;
+      border-radius: 8px;
       text-align: center;
+      font-weight: bold;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .cta a {
+      display: inline-block;
+      background: #1f7a3d;
+      color: white;
+      text-decoration: none;
+      padding: 16px 32px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.2s ease;
+    }
+
+    .cta a:hover {
+      background: #176430;
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #666;
+      padding: 25px;
+    }
+
+    @media(max-width: 600px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .content {
+        padding: 24px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
-    <h1>See What Grants You May Qualify For</h1>
+  <div class="topbar">
+    Nationwide Community Food Assistance Program
+  </div>
 
-    <p>
-      There are many U.S. grant and assistance programs, but eligibility depends
-      on your personal situation.
-    </p>
+  <div class="hero">
+    <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=1400&auto=format&fit=crop" alt="Food assistance">
 
-    <p>
-      By answering a few questions, you can be matched with grant and funding
-      programs that may be relevant to you.
-    </p>
+    <div class="content">
+      <h1>Free Food Distribution Support Available Across the USA</h1>
 
-    <ul>
-      <li>✔ Housing & family assistance</li>
-      <li>✔ Education & training programs</li>
-      <li>✔ Other public & private funding options</li>
-    </ul>
+      <p>
+        Families and individuals in qualifying areas may be eligible to receive free food assistance through local community support initiatives.
+      </p>
 
-    <a href="https://www.hiphi.site/2PMBTXHK/9Z5BMXK/?source_id=garryfb" class="cta">
-      Continue to Eligibility Check
-    </a>
+      <div class="highlight">
+        Applications are currently being reviewed in multiple states while available supplies last.
+      </div>
 
-    <p class="disclaimer">
-      No grants are guaranteed. Availability and eligibility vary.
-      This is a free service.
-    </p>
+      <p>
+        The program is designed to help households access grocery support, meal packages, and community food distribution resources.
+      </p>
+
+      <div class="cta">
+        <a href="https://www.hiphi.site/2PMBTXHK/9Z5BMXK/?source_id=garryfb" style="display:inline-block; width:100%; max-width:500px; background:#1f7a3d; color:white; text-decoration:none; padding:18px 28px; border-radius:10px; font-size:20px; font-weight:bold; text-align:center;">
+          Get Assistance
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2026 Community Support Initiative •
   </div>
 
 </body>
